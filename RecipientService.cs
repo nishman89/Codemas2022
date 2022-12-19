@@ -4,7 +4,7 @@ namespace SantasEmporium.Services
 {
     public class RecipientService
     {
-        // Contains list of recipieints
+        // Contains list of recipients
         static List<Recipient> Recipients { get; }
         static int nextId = 4;
         // Constructor
@@ -19,7 +19,7 @@ namespace SantasEmporium.Services
                 };
         }
 
-        //Method to get all recipients
+        //Method which returns all recipients in the Recipients list
         public static List<Recipient> GetAll()
         {
             return Recipients;
